@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T02:28:57.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="qx-edxeazDUEbQOVMupv" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T02:35:17.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="x2bTFfl9w92uqh05KayD" version="22.1.4" type="github">
   <diagram name="第 1 页" id="gZoeROmIox5KtovJomb4">
-    <mxGraphModel dx="903" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1084" dy="825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="JhQzxtDdnRuOIg8W1DeD-1" value="&lt;div align=&quot;left&quot;&gt;CPU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JhQzxtDdnRuOIg8W1DeD-2" value="&lt;div align=&quot;left&quot;&gt;GPU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="JhQzxtDdnRuOIg8W1DeD-2" value="&lt;div align=&quot;left&quot;&gt;GPU0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="525" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JhQzxtDdnRuOIg8W1DeD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
@@ -119,7 +119,7 @@
         <mxCell id="JhQzxtDdnRuOIg8W1DeD-41" value="" style="rounded=0;whiteSpace=wrap;html=1;textOpacity=0;opacity=30;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="440" y="440" width="320" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="JhQzxtDdnRuOIg8W1DeD-42" value="&lt;div align=&quot;left&quot;&gt;GPU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="JhQzxtDdnRuOIg8W1DeD-42" value="&lt;div align=&quot;left&quot;&gt;GPU1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="525" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JhQzxtDdnRuOIg8W1DeD-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
@@ -161,8 +161,11 @@
             <mxPoint x="90" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhQzxtDdnRuOIg8W1DeD-55" value="&lt;font color=&quot;#336600&quot;&gt;p2p bar pa&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="330" y="429" width="70" height="30" as="geometry" />
+        <mxCell id="JhQzxtDdnRuOIg8W1DeD-55" value="&lt;font color=&quot;#336600&quot;&gt;p2p &lt;br&gt;bar pa&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="345" y="424" width="45" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="JhQzxtDdnRuOIg8W1DeD-56" value="Local pa : address inner gpu, [0 size]&lt;br style=&quot;font-size: 14px;&quot;&gt;iova: dma mapped pa&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;bar pa: bios assigned, lspci shows&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="543" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
