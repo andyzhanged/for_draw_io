@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T11:59:02.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.1.5" etag="qZUrRINQ3TPqx9zkgh8i" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T12:26:53.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="ST4aenhIoAx0B0XZSPel" version="22.1.5" type="github">
   <diagram name="第 1 页" id="Ks_WqYh9_LlSjnp3bexs">
-    <mxGraphModel>
+    <mxGraphModel dx="744" dy="1994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-18" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=80;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="150" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-17" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=80;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="310" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-15" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=80;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-1" value="&lt;div&gt;cudaMalloc(ptr)&lt;br&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;cudaIpcGetMemHandle(handle, ptr)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="137.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-2" value="host mem" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="60" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-6" value="dev mem" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-8" value="mem info" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="480" y="87.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-11" value="&lt;div&gt;1. mem location&lt;/div&gt;&lt;div&gt;2. mem size&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. mem handle&lt;/div&gt;&lt;div&gt;……&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="80" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="50" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-13" value="&lt;div&gt;&lt;div&gt;cudaIpcOpenMemHandle(handler, ptr)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="590" as="sourcePoint" />
+            <mxPoint x="380" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="290" as="sourcePoint" />
+            <mxPoint x="650" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-22" value="&lt;div&gt;1. find mem by handle&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. create page table for shared memory&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=left;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="320" width="115" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.384;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.387;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mkzYLdg49s4tKRvJ3ipk-15" target="mkzYLdg49s4tKRvJ3ipk-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="290" as="sourcePoint" />
+            <mxPoint x="130" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-27" value="pass hanlde" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkzYLdg49s4tKRvJ3ipk-24">
+          <mxGeometry x="-0.142" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-25" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-26" value="z" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
