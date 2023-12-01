@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T12:46:55.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="-coDYT9DtH50CEZzhNkO" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T12:49:09.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="oNcE5fNRYr6Ws7HCX2MO" version="22.1.5" type="github">
   <diagram name="第 1 页" id="Ks_WqYh9_LlSjnp3bexs">
     <mxGraphModel dx="620" dy="1088" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,12 @@
         </mxCell>
         <mxCell id="mkzYLdg49s4tKRvJ3ipk-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="900" y="38" width="20" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-54" value="mem share" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="799" y="258" width="101" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mkzYLdg49s4tKRvJ3ipk-61" value="mem mmap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="799" y="180" width="102" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
